@@ -9,6 +9,7 @@ class Nxml2txt < Formula
   sha1 "ec0fb3bfbf537c6861560c4a4ae69dbb4a53acd0" 
 
   depends_on :python
+  depends_on "libxml2"
 
   def install
 	mkdir_p bin/"src"
