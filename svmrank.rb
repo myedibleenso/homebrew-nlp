@@ -1,8 +1,9 @@
 class Svmrank < Formula
+  desc "SVMstruct instance for efficiently training Ranking SVMs"
   homepage "http://www.cs.cornell.edu/people/tj/svm_light/svm_rank.html"
-  url "http://download.joachims.org/svm_rank/current/svm_rank.tar.gz"
-  version "1.00"
-  sha1 "0f81e563aed064fbca0477d8f8a1d640b1b9c2f9"
+  url "http://download.joachims.org/svm_rank"
+  version "1.0"
+  sha256 "53e63648c8bd295c3ddb91be9fcbd185ae8579d263baf3fe60610758e4b4c7b5"
 
   def install
     system "make", "all"
