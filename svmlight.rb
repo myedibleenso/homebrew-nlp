@@ -1,9 +1,9 @@
 class Svmlight < Formula
   desc "Support Vector Machine (SVM) implementation in C."
   homepage "http://svmlight.joachims.org/"
-  url "http://osmot.cs.cornell.edu/svm_light"
+  url "http://osmot.cs.cornell.edu/svm_light/v6.02/svm_light.tar.gz"
   version "6.02"
-  sha256 "76912d0b1f440ac567f3b5570fa7ea054dd37fb39648e7ead2c4d1e3487ef05a"
+  sha256 "aa48985a4c77eecd84d293de40d4731da767e49a1d2323c6198180652aa8724e"
 
   def install
     system "make", "all"
